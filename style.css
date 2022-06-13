@@ -1,0 +1,34 @@
+body {
+  background-color: #fff;
+  color: 000;
+  padding: 25px;
+  font-family: Comfortaa;
+  font-family: Raleway;
+  text-decoration: none;
+}
+h1, p{
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: blue;
+}
+#imgs{
+  display: flex;
+  justify-content: center;
+}
+footer{
+  padding-top: 280px;
+}
+h1, a, p, ul li{
+  transition: 2s;
+}
+img{
+  transition: 2s;
+}
+#repl:hover{
+  transform: rotate(360deg)
+}
+a:hover{
+  color: green;
+}
